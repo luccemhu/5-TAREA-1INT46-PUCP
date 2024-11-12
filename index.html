@@ -7506,7 +7506,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
@@ -7556,7 +7556,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
@@ -7590,12 +7590,12 @@ Then, call the library:</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2d2e3d99-7100-4941-aad8-57b178798e94">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=2d2e3d99-7100-4941-aad8-57b178798e94">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="ch">#!pip show glpk pulp</span>
@@ -7606,36 +7606,12 @@ Then, call the library:</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre><span class="ansi-yellow-fg">WARNING: Package(s) not found: glpk</span><span class="ansi-yellow-fg">
-</span>Name: PuLP
-Version: 2.9.0
-Summary: PuLP is an LP modeler written in python. PuLP can generate MPS or LP files and call GLPK, COIN CLP/CBC, CPLEX, and GUROBI to solve linear problems.
-Home-page: https://github.com/coin-or/pulp
-Author: J.S. Roy and S.A. Mitchell and F. Peschiera
-Author-email: pulp@stuartmitchell.com
-License: 
-Location: /usr/local/lib/python3.10/dist-packages
-Requires: 
-Required-by: 
-Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (2.9.0)
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a105dc9b-d105-49d3-8093-96d03eca9530">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pulp</span> <span class="k">as</span> <span class="nn">pp</span>
@@ -7662,7 +7638,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">model</span> <span class="o">=</span> <span class="n">pp</span><span class="o">.</span><span class="n">LpProblem</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'diet-problem'</span><span class="p">,</span> <span class="c1"># just the name</span>
@@ -7690,7 +7666,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">VegaVita</span> <span class="o">=</span> <span class="n">pp</span><span class="o">.</span><span class="n">LpVariable</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">"VegaVita"</span><span class="p">,</span> <span class="n">lowBound</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">cat</span><span class="o">=</span><span class="s1">'Continuous'</span><span class="p">)</span>
@@ -7706,7 +7682,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">VegaVitaCost</span> <span class="o">=</span> <span class="mf">0.2</span>
@@ -7736,7 +7712,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Restricciones de requerimientos nutricionales</span>
@@ -7755,7 +7731,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#solverToUse = pp.COIN_CMD(msg=False)</span>
@@ -7770,7 +7746,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -7791,7 +7767,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">df_results</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">Results</span><span class="p">,</span> <span class="n">orient</span><span class="o">=</span><span class="s1">'index'</span><span class="p">)</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'Model Status'</span><span class="p">)</span>
@@ -7806,7 +7782,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <style type="text/css">
 </style>
@@ -7880,7 +7856,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
@@ -7907,7 +7883,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [71]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Importar la biblioteca PuLP</span>
@@ -7923,7 +7899,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Crear el modelo de optimización</span>
@@ -7938,7 +7914,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [73]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Variables de decisión: cantidad de conductores en cada turno</span>
@@ -7958,7 +7934,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [75]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Función objetivo: minimizar el número total de conductores</span>
@@ -7976,7 +7952,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Restricciones de demanda por cada franja horaria</span>
@@ -7996,7 +7972,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [77]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Resolver el modelo</span>
@@ -8012,7 +7988,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[77]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>1</pre>
 </div>
@@ -8024,7 +8000,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Extraer resultados</span>
@@ -8048,7 +8024,7 @@ Requirement already satisfied: pulp in /usr/local/lib/python3.10/dist-packages (
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [79]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Crear el DataFrame sin formateo adicional</span>
@@ -8140,7 +8116,7 @@ Se necesitan <strong>4 conductores</strong> para cubrir el turno de 20:00 a 4:00
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
@@ -8180,7 +8156,7 @@ Se necesitan <strong>4 conductores</strong> para cubrir el turno de 20:00 a 4:00
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
@@ -8240,11 +8216,11 @@ If you have a better idea, you can use it instead.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [92]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># the link to the data</span>
-<span class="n">linkGithub</span> <span class="o">=</span> <span class="s1">'https://github.com/luccemhu/5-TAREA-1INT46-PUCP/raw/refs/heads/main/comparissons.xlsx'</span>  <span class="c1"># the link to the data</span>
+<span class="n">linkGithub</span> <span class="o">=</span> <span class="s1">'https://docs.google.com/spreadsheets/d/e/2PACX-1vSYDC9hbvK6r7t0bB5zJgidvPbi6ASqhYZgdwSC1o7OZrJ_FvK33XYIMUFqayPz8c46IvyhtrQKmcCQ/pub?output=xlsx'</span>  <span class="c1"># the link to the data</span>
 </pre></div>
 </div>
 </div>
@@ -8268,7 +8244,7 @@ If you have a better idea, you can use it instead.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [93]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># opening the comparisons</span>
@@ -8300,7 +8276,7 @@ If you have a better idea, you can use it instead.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [94]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">pairwise_criteria</span>
@@ -8314,9 +8290,9 @@ If you have a better idea, you can use it instead.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[94]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div class="colab-df-container" id="df-73d4665d-6ceb-48f7-a89a-8ed9edadfb0d">
+<div class="colab-df-container" id="df-cf891235-314b-4d09-a432-6bd68ca02d78">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -8343,19 +8319,19 @@ If you have a better idea, you can use it instead.</p>
 <tbody>
 <tr>
 <th>Costo</th>
-<td>1.0</td>
+<td>1.000</td>
 <td>3.0</td>
 <td>5</td>
 </tr>
 <tr>
 <th>Idioma</th>
-<td>333.0</td>
+<td>0.333</td>
 <td>1.0</td>
 <td>2</td>
 </tr>
 <tr>
 <th>Empleo</th>
-<td>0.2</td>
+<td>0.200</td>
 <td>0.5</td>
 <td>1</td>
 </tr>
@@ -8364,7 +8340,7 @@ If you have a better idea, you can use it instead.</p>
 </div>
 <div class="colab-df-buttons">
 <div class="colab-df-container">
-<button class="colab-df-convert" onclick="convertToInteractive('df-73d4665d-6ceb-48f7-a89a-8ed9edadfb0d')" style="display:none;" title="Convert this dataframe to an interactive table.">
+<button class="colab-df-convert" onclick="convertToInteractive('df-cf891235-314b-4d09-a432-6bd68ca02d78')" style="display:none;" title="Convert this dataframe to an interactive table.">
 <svg height="24px" viewbox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg">
 <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"></path>
 </svg>
@@ -8411,12 +8387,12 @@ If you have a better idea, you can use it instead.</p>
   </style>
 <script>
       const buttonEl =
-        document.querySelector('#df-73d4665d-6ceb-48f7-a89a-8ed9edadfb0d button.colab-df-convert');
+        document.querySelector('#df-cf891235-314b-4d09-a432-6bd68ca02d78 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-73d4665d-6ceb-48f7-a89a-8ed9edadfb0d');
+        const element = document.querySelector('#df-cf891235-314b-4d09-a432-6bd68ca02d78');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -8434,8 +8410,8 @@ If you have a better idea, you can use it instead.</p>
       }
     </script>
 </div>
-<div id="df-7f3a4552-dfe2-43ca-8bb2-e175a1a5b675">
-<button class="colab-df-quickchart" onclick="quickchart('df-7f3a4552-dfe2-43ca-8bb2-e175a1a5b675')" style="display:none;" title="Suggest charts">
+<div id="df-f911b75a-71ae-4d67-8e90-bf70fb2b876b">
+<button class="colab-df-quickchart" onclick="quickchart('df-f911b75a-71ae-4d67-8e90-bf70fb2b876b')" style="display:none;" title="Suggest charts">
 <svg height="24px" viewbox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg">
 <g>
 <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"></path>
@@ -8548,13 +8524,13 @@ If you have a better idea, you can use it instead.</p>
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-7f3a4552-dfe2-43ca-8bb2-e175a1a5b675 button');
+        document.querySelector('#df-f911b75a-71ae-4d67-8e90-bf70fb2b876b button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
   </script>
 </div>
-<div id="id_9a216e62-6ce6-420f-8e66-4547f704bf90">
+<div id="id_29c2735d-8cf2-40fd-9cff-fd669cabcb86">
 <style>
       .colab-df-generate {
         background-color: #E8F0FE;
@@ -8594,7 +8570,7 @@ If you have a better idea, you can use it instead.</p>
 <script>
       (() => {
       const buttonEl =
-        document.querySelector('#id_9a216e62-6ce6-420f-8e66-4547f704bf90 button.colab-df-generate');
+        document.querySelector('#id_29c2735d-8cf2-40fd-9cff-fd669cabcb86 button.colab-df-generate');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
@@ -8628,7 +8604,7 @@ If you have a better idea, you can use it instead.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [95]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
@@ -8647,9 +8623,9 @@ If you have a better idea, you can use it instead.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[95]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>OutMultiEdgeDataView([('Brasil', 'Brasil', {'weight': 1.0}), ('Brasil', 'España', {'weight': 3.0}), ('Brasil', 'USA', {'weight': 5.0}), ('Brasil', 'Alemania', {'weight': 7.0}), ('España', 'Brasil', {'weight': 333.0}), ('España', 'España', {'weight': 1.0}), ('España', 'USA', {'weight': 3.0}), ('España', 'Alemania', {'weight': 5.0}), ('USA', 'Brasil', {'weight': 0.2}), ('USA', 'España', {'weight': 333.0}), ('USA', 'USA', {'weight': 1.0}), ('USA', 'Alemania', {'weight': 2.0}), ('Alemania', 'Brasil', {'weight': 142.0}), ('Alemania', 'España', {'weight': 0.2}), ('Alemania', 'USA', {'weight': 0.5}), ('Alemania', 'Alemania', {'weight': 1.0})])</pre>
+<pre>OutMultiEdgeDataView([('Brasil', 'Brasil', {'weight': 1.0}), ('Brasil', 'España', {'weight': 3.0}), ('Brasil', 'USA', {'weight': 5.0}), ('Brasil', 'Alemania', {'weight': 7.0}), ('España', 'Brasil', {'weight': 0.333}), ('España', 'España', {'weight': 1.0}), ('España', 'USA', {'weight': 3.0}), ('España', 'Alemania', {'weight': 5.0}), ('USA', 'Brasil', {'weight': 0.2}), ('USA', 'España', {'weight': 0.333}), ('USA', 'USA', {'weight': 1.0}), ('USA', 'Alemania', {'weight': 2.0}), ('Alemania', 'Brasil', {'weight': 0.142}), ('Alemania', 'España', {'weight': 0.2}), ('Alemania', 'USA', {'weight': 0.5}), ('Alemania', 'Alemania', {'weight': 1.0})])</pre>
 </div>
 </div>
 </div>
@@ -8659,7 +8635,7 @@ If you have a better idea, you can use it instead.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [96]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Extract pairwise comparisons for each criterion</span>
@@ -8675,18 +8651,18 @@ If you have a better idea, you can use it instead.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[96]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>{('Brasil', 'España'): 3.0,
  ('Brasil', 'USA'): 5.0,
  ('Brasil', 'Alemania'): 7.0,
- ('España', 'Brasil'): 333.0,
+ ('España', 'Brasil'): 0.333,
  ('España', 'USA'): 3.0,
  ('España', 'Alemania'): 5.0,
  ('USA', 'Brasil'): 0.2,
- ('USA', 'España'): 333.0,
+ ('USA', 'España'): 0.333,
  ('USA', 'Alemania'): 2.0,
- ('Alemania', 'Brasil'): 142.0,
+ ('Alemania', 'Brasil'): 0.142,
  ('Alemania', 'España'): 0.2,
  ('Alemania', 'USA'): 0.5}</pre>
 </div>
@@ -8698,7 +8674,7 @@ If you have a better idea, you can use it instead.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [97]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># the remaining comparissons:</span>
@@ -8718,7 +8694,7 @@ If you have a better idea, you can use it instead.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [98]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># take a look</span>
@@ -8733,18 +8709,18 @@ If you have a better idea, you can use it instead.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[98]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>[{('Brasil', 'España'): 3.0,
   ('Brasil', 'USA'): 5.0,
   ('Brasil', 'Alemania'): 7.0,
-  ('España', 'Brasil'): 333.0,
+  ('España', 'Brasil'): 0.333,
   ('España', 'USA'): 3.0,
   ('España', 'Alemania'): 5.0,
   ('USA', 'Brasil'): 0.2,
-  ('USA', 'España'): 333.0,
+  ('USA', 'España'): 0.333,
   ('USA', 'Alemania'): 2.0,
-  ('Alemania', 'Brasil'): 142.0,
+  ('Alemania', 'Brasil'): 0.142,
   ('Alemania', 'España'): 0.2,
   ('Alemania', 'USA'): 0.5},
  {('Brasil', 'España'): 5.0,
@@ -8753,21 +8729,21 @@ If you have a better idea, you can use it instead.</p>
   ('España', 'Brasil'): 0.2,
   ('España', 'USA'): 3.0,
   ('España', 'Alemania'): 5.0,
-  ('USA', 'Brasil'): 142.0,
-  ('USA', 'España'): 333.0,
+  ('USA', 'Brasil'): 0.142,
+  ('USA', 'España'): 0.333,
   ('USA', 'Alemania'): 2.0,
   ('Alemania', 'Brasil'): 111.0,
   ('Alemania', 'España'): 0.2,
   ('Alemania', 'USA'): 0.5},
  {('Brasil', 'España'): 0.25,
   ('Brasil', 'USA'): 0.2,
-  ('Brasil', 'Alemania'): 142.0,
+  ('Brasil', 'Alemania'): 0.142,
   ('España', 'Brasil'): 4.0,
-  ('España', 'USA'): 333.0,
+  ('España', 'USA'): 0.333,
   ('España', 'Alemania'): 0.2,
   ('USA', 'Brasil'): 5.0,
   ('USA', 'España'): 3.0,
-  ('USA', 'Alemania'): 333.0,
+  ('USA', 'Alemania'): 0.333,
   ('Alemania', 'Brasil'): 7.0,
   ('Alemania', 'España'): 5.0,
   ('Alemania', 'USA'): 3.0}]</pre>
@@ -8780,7 +8756,7 @@ If you have a better idea, you can use it instead.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [99]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># now the criteria</span>
@@ -8798,11 +8774,11 @@ If you have a better idea, you can use it instead.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[99]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>{('Costo', 'Idioma'): 3.0,
  ('Costo', 'Empleo'): 5.0,
- ('Idioma', 'Costo'): 333.0,
+ ('Idioma', 'Costo'): 0.333,
  ('Idioma', 'Empleo'): 2.0,
  ('Empleo', 'Costo'): 0.2,
  ('Empleo', 'Idioma'): 0.5}</pre>
@@ -8823,42 +8799,27 @@ If you have a better idea, you can use it instead.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=69e67f1d-408e-446b-9991-0566a0aaee5b">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=69e67f1d-408e-446b-9991-0566a0aaee5b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [100]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">## install</span>
-<span class="c1">#!pip install ahpy</span>
+<span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>ahpy
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: ahpy in /usr/local/lib/python3.10/dist-packages (2.0)
-Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (from ahpy) (1.26.4)
-Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages (from ahpy) (1.13.1)
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=16ec39e8-0c5e-4803-8a05-00b354bc2133">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=16ec39e8-0c5e-4803-8a05-00b354bc2133">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [101]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># input each comparisson</span>
@@ -8873,22 +8834,6 @@ Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages 
 <span class="c1"># Create the parent criteria model (for ranking the 3 criteria)</span>
 <span class="n">criteria</span> <span class="o">=</span> <span class="n">ahpy</span><span class="o">.</span><span class="n">Compare</span><span class="p">(</span><span class="s1">'criteria'</span><span class="p">,</span> <span class="n">criteria_comparisons</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_index</span><span class="o">=</span><span class="s1">'saaty'</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/usr/local/lib/python3.10/dist-packages/numpy/linalg/linalg.py:667: RuntimeWarning: overflow encountered in matmul
-  return fmatmul(a, a)
-/usr/local/lib/python3.10/dist-packages/ahpy/ahpy.py:253: RuntimeWarning: invalid value encountered in divide
-  principal_eigenvector = np.divide(row_sum, total_sum)
-</pre>
 </div>
 </div>
 </div>
@@ -8911,7 +8856,7 @@ Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [102]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">criteria</span><span class="o">.</span><span class="n">add_children</span><span class="p">([</span><span class="n">costo_vida</span><span class="p">,</span> <span class="n">idioma</span><span class="p">,</span> <span class="n">empleo</span><span class="p">])</span>
@@ -8938,7 +8883,7 @@ Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [103]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">criteria</span><span class="o">.</span><span class="n">target_weights</span><span class="p">)</span>
@@ -8978,7 +8923,7 @@ Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [106]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">## We should review comparissons if greater than 0.1!</span>
@@ -8993,12 +8938,12 @@ Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages 
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[106]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>[('costo_vida', 29.957),
- ('idioma', 4.773),
+<pre>[('costo_vida', 0.025),
+ ('idioma', 5.159),
  ('empleo', 0.067),
- ('criteria', 7.225)]</pre>
+ ('criteria', 0.004)]</pre>
 </div>
 </div>
 </div>
@@ -9010,30 +8955,31 @@ Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Interpretaci%C3%B3n-de-los-resultados">Interpretación de los resultados<a class="anchor-link" href="#Interpretaci%C3%B3n-de-los-resultados">¶</a></h3><ol>
-<li><p><strong>Costo de vida (29.957)</strong>:</p>
+<h3 id="Interpretaci%C3%B3n-de-los-resultados-corregidos">Interpretación de los resultados corregidos<a class="anchor-link" href="#Interpretaci%C3%B3n-de-los-resultados-corregidos">¶</a></h3><ol>
+<li><p><strong>Costo de vida (0.025)</strong>:</p>
 <ul>
-<li>Este valor es significativamente alto, lo que indica que las comparaciones realizadas para este criterio no son del todo consistentes. El índice de consistencia en AHP debe ser inferior a 10 para considerarse razonable, por lo que un valor de 29.957 es un claro indicativo de que las comparaciones realizadas para el criterio de "Costo de vida" pueden no ser lo suficientemente consistentes. Esto sugiere que puede haber ambigüedad o inconsistencias en las percepciones de la importancia relativa de este criterio en comparación con los demás, lo que podría deberse a diferencias subjetivas en las evaluaciones o a posibles errores en la asignación de los pesos de las alternativas.</li>
+<li>Este índice de consistencia es extremadamente bajo, lo que indica una excelente consistencia en las comparaciones realizadas para este criterio. Esto sugiere que las evaluaciones del "Costo de vida" como criterio en relación con los otros son claras, precisas y coherentes entre sí. Es probable que los participantes hayan tenido una percepción uniforme y objetiva sobre la importancia relativa de este criterio, lo cual fortalece su confiabilidad en el modelo.</li>
 </ul>
 </li>
-<li><p><strong>Idioma (4.773)</strong>:</p>
+<li><p><strong>Idioma (5.159)</strong>:</p>
 <ul>
-<li>Aunque el valor es más bajo que el de "Costo de vida", sigue siendo algo elevado. Un índice de consistencia de 4.773 también sugiere que las comparaciones para este criterio tienen cierto grado de inconsistencia, aunque en menor medida que las de "Costo de vida". Sin embargo, aún está dentro del rango tolerable si consideramos que los valores generalmente aceptados en AHP deberían estar por debajo de 10. Esta inconsistencia podría reflejar las dificultades inherentes al evaluar un criterio como la "dificultad del idioma", que depende de muchos factores subjetivos y contextuales, como las habilidades previas de los participantes o el nivel de familiaridad con los idiomas de los países evaluados.</li>
+<li>Este valor, aunque más alto que los otros, sigue siendo razonablemente consistente. En el contexto del AHP, los índices de consistencia inferiores a 10 suelen ser considerados aceptables. Sin embargo, este criterio tiene un margen de mejora en términos de coherencia. La mayor variabilidad podría deberse a diferencias en la percepción de la dificultad de los idiomas según las habilidades lingüísticas de los evaluadores o su experiencia previa con los idiomas de los países analizados. Esto indica cierta subjetividad, pero no compromete gravemente la calidad del análisis.</li>
 </ul>
 </li>
 <li><p><strong>Empleo (0.067)</strong>:</p>
 <ul>
-<li>Este valor es extremadamente bajo y está muy por debajo de 10, lo cual indica una alta consistencia en las comparaciones realizadas para el criterio de "Posibilidades de conseguir empleo". Esto sugiere que las evaluaciones para este criterio son mucho más consistentes que las de los otros dos. Es posible que el factor "empleo" sea más claro o menos ambiguo para los participantes, dado que tiene una relación más directa con datos objetivos, como tasas de desempleo o políticas laborales de los países evaluados.</li>
+<li>Este índice es notablemente bajo, lo que indica una consistencia excelente en las comparaciones realizadas para este criterio. Similar al "Costo de vida", las evaluaciones para el criterio "Posibilidades de conseguir empleo" son muy coherentes. Esto probablemente refleja que este criterio está basado en factores más objetivos, como políticas laborales, tasas de empleo y perspectivas de trabajo, lo que reduce la subjetividad en las evaluaciones.</li>
 </ul>
 </li>
-<li><p><strong>Criteria (7.225)</strong>:</p>
+<li><p><strong>Criteria (0.004)</strong>:</p>
 <ul>
-<li>El valor para el índice de consistencia general de las comparaciones de los criterios también es relativamente bajo, lo que indica que el proceso de comparación entre los tres criterios ("Costo de vida", "Idioma" y "Empleo") fue relativamente consistente. Este valor sugiere que las percepciones de la importancia relativa de los tres criterios no son totalmente incoherentes, aunque podría mejorarse la consistencia.</li>
+<li>Este índice de consistencia general es excepcionalmente bajo, lo que implica que las comparaciones globales realizadas entre los tres criterios principales ("Costo de vida", "Idioma" y "Empleo") son extremadamente consistentes. Esto sugiere que el modelo AHP en general tiene una base sólida y que las percepciones de importancia relativa entre los criterios fueron realizadas de manera uniforme y razonable.</li>
 </ul>
 </li>
 </ol>
-<h3 id="Conclusi%C3%B3n:">Conclusión:<a class="anchor-link" href="#Conclusi%C3%B3n:">¶</a></h3><p>El análisis de consistencia de las comparaciones en este modelo AHP revela que las comparaciones para el criterio de "Costo de vida" son las más inconsistentes, lo que podría señalar la necesidad de una revisión más profunda o más precisa de este criterio. En contraste, las comparaciones para el criterio de "Empleo" muestran una alta consistencia, lo cual es un buen indicador de que este criterio está siendo evaluado de manera clara y coherente. En general, el índice de consistencia para el modelo completo está dentro de un rango aceptable, pero se debe tener en cuenta que las inconsistencias en algunos de los criterios pueden afectar la precisión del modelo AHP y, por lo tanto, las decisiones derivadas del mismo.</p>
-<p>Es recomendable revisar las comparaciones y, si es posible, ajustar o clarificar las percepciones de los participantes para mejorar la consistencia en futuros análisis.</p>
+<h3 id="Conclusi%C3%B3n:">Conclusión:<a class="anchor-link" href="#Conclusi%C3%B3n:">¶</a></h3><p>Los índices de consistencia en este modelo AHP son, en general, muy bajos, lo cual es un indicador positivo de que las comparaciones realizadas entre los criterios y alternativas son altamente coherentes. Esto refuerza la validez del análisis y sugiere que las evaluaciones son confiables y están bien fundamentadas.</p>
+<p>El único criterio con un índice de consistencia moderadamente alto es el de "Idioma" (5.159), lo cual podría deberse a la subjetividad inherente en la evaluación de este aspecto. A pesar de esto, el valor se encuentra dentro del rango aceptable para el método AHP y no compromete la integridad del modelo.</p>
+<p>Este análisis indica que el proceso de decisión derivado de este modelo tiene una sólida base metodológica, permitiendo identificar las alternativas más adecuadas con confianza. No obstante, sería beneficioso realizar una revisión más detallada de las comparaciones en el criterio "Idioma" para reducir posibles inconsistencias y mejorar aún más la precisión del modelo.</p>
 <p>Nota: Los resultados reflejan los <strong>índices de consistencia</strong> de las comparaciones realizadas en el proceso AHP para los diferentes criterios. En AHP, el <strong>índice de consistencia</strong> (o <strong>ratio de consistencia</strong>) mide cuán coherentes son las comparaciones entre los elementos. Un valor cercano a 0 indica que las comparaciones son consistentes, mientras que un valor más alto sugiere que las comparaciones pueden ser inconsistentes.</p>
 </div>
 </div>
@@ -9072,7 +9018,7 @@ Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -9131,7 +9077,7 @@ Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">renamu</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -9182,7 +9128,7 @@ memory usage: 88.0+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># ratio passenger employee:</span>
@@ -9198,7 +9144,7 @@ memory usage: 88.0+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -9256,7 +9202,7 @@ memory usage: 60.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">altair</span> <span class="k">as</span> <span class="nn">alt</span>
@@ -9300,7 +9246,7 @@ memory usage: 60.8+ KB
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div id="altair-viz-98edbec01029433aa54ae0da08e80b1d"></div>
 <script type="text/javascript">
@@ -9376,7 +9322,7 @@ memory usage: 60.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">renamu</span><span class="p">[[</span><span class="s1">'Distrito'</span><span class="p">,</span><span class="s1">'rate_GastosByIngresos'</span><span class="p">,</span><span class="s1">'rate_ResiduosByPersonal'</span><span class="p">]]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'rate_GastosByIngresos'</span><span class="p">,</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -9390,7 +9336,7 @@ memory usage: 60.8+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div class="colab-df-container" id="df-d543c37f-6cfd-4afd-891e-98ad243d7dd4">
 <div>
@@ -9653,7 +9599,7 @@ memory usage: 60.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">renamu</span><span class="p">[[</span><span class="s1">'Distrito'</span><span class="p">,</span><span class="s1">'rate_GastosByIngresos'</span><span class="p">,</span><span class="s1">'rate_ResiduosByPersonal'</span><span class="p">]]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'rate_ResiduosByPersonal'</span><span class="p">,</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -9667,7 +9613,7 @@ memory usage: 60.8+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div class="colab-df-container" id="df-ddf855f3-33de-4ebf-9990-01e39107dc54">
 <div>
@@ -9941,7 +9887,7 @@ memory usage: 60.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">Best_GastosByIngresos</span><span class="o">=</span><span class="n">renamu</span><span class="o">.</span><span class="n">rate_GastosByIngresos</span><span class="o">.</span><span class="n">idxmax</span><span class="p">()</span>
@@ -9967,7 +9913,7 @@ memory usage: 60.8+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div class="colab-df-container" id="df-3459a5a6-6140-4cb9-add3-ae7fb80c5d2c">
 <div>
@@ -10280,7 +10226,7 @@ memory usage: 60.8+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">points</span> <span class="o">+</span> <span class="n">text</span> <span class="o">+</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">envelope</span><span class="p">)</span><span class="o">.</span><span class="n">mark_line</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
@@ -10305,7 +10251,7 @@ memory usage: 60.8+ KB
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div id="altair-viz-f1f6bb8519194f5185b551497028e86b"></div>
 <script type="text/javascript">
@@ -10376,36 +10322,17 @@ memory usage: 60.8+ KB
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=uJvJD60aWzgf">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=uJvJD60aWzgf">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">## installation</span>
 <span class="c1">#!pip install Pyfrontier</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Collecting Pyfrontier
-  Downloading Pyfrontier-1.0.2-py3-none-any.whl.metadata (2.7 kB)
-Requirement already satisfied: numpy&gt;=1.21 in /usr/local/lib/python3.10/dist-packages (from Pyfrontier) (1.26.4)
-Requirement already satisfied: pulp&gt;=2.6.0 in /usr/local/lib/python3.10/dist-packages (from Pyfrontier) (2.9.0)
-Downloading Pyfrontier-1.0.2-py3-none-any.whl (15 kB)
-Installing collected packages: Pyfrontier
-Successfully installed Pyfrontier-1.0.2
-</pre>
 </div>
 </div>
 </div>
@@ -10426,7 +10353,7 @@ Successfully installed Pyfrontier-1.0.2
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">renamu</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -10467,7 +10394,7 @@ memory usage: 93.0+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">renamuInput</span> <span class="o">=</span> <span class="n">renamu</span><span class="o">.</span><span class="n">columns</span><span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">]]</span><span class="o">.</span><span class="n">to_list</span><span class="p">()</span>  <span class="c1"># Use a list for indexing</span>
@@ -10493,7 +10420,7 @@ memory usage: 93.0+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">Pyfrontier.frontier_model</span> <span class="kn">import</span> <span class="n">EnvelopDEA</span>
@@ -10524,7 +10451,7 @@ memory usage: 93.0+ KB
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">renamu</span><span class="p">[</span><span class="s1">'vrs_in'</span><span class="p">]</span><span class="o">=</span><span class="p">[</span><span class="n">r</span><span class="o">.</span><span class="n">score</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">dea_air_vrs_in</span><span class="o">.</span><span class="n">result</span><span class="p">]</span>
@@ -10540,7 +10467,7 @@ memory usage: 93.0+ KB
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -10631,33 +10558,16 @@ memory usage: 93.0+ KB
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1ULaNpgwZITi">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=1ULaNpgwZITi">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="ch">#!pip install py4etrics</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Collecting py4etrics
-  Downloading py4etrics-0.1.9-py2.py3-none-any.whl.metadata (1.8 kB)
-Downloading py4etrics-0.1.9-py2.py3-none-any.whl (19 kB)
-Installing collected packages: py4etrics
-Successfully installed py4etrics-0.1.9
-</pre>
 </div>
 </div>
 </div>
@@ -10667,7 +10577,7 @@ Successfully installed py4etrics-0.1.9
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> <span class="c1"># linear algebra</span>
@@ -10709,7 +10619,7 @@ Successfully installed py4etrics-0.1.9
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <table class="simpletable">
 <caption>Tobit Regression Results</caption>
