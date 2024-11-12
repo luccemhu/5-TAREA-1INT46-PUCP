@@ -1,4 +1,11 @@
-# 5-TAREA-1INT46-PUCP-
+# [5-TAREA-1INT46-PUCP](https://luccemhu.github.io/5-TAREA-1INT46-PUCP/)
+Integrantes:
+
+Joel B. Huamani Ccallocunto - 20196510
+Luis E. Valverde Ramos - 20191930
+
+Github Pages: https://luccemhu.github.io/5-TAREA-1INT46-PUCP/
+Repositorio: https://github.com/luccemhu/5-TAREA-1INT46-PUCP
 
 # Análisis de Eficiencia y Optimización en el Sector Público
 
